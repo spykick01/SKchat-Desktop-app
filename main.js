@@ -36,7 +36,7 @@ function createWindow() {
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: true,
-      backgroundThrottling: false // keeps SKMusic playing when minimized
+      backgroundThrottling: true // saves CPU when the window is hidden; audio keeps playing
     }
   });
   if (st.max) win.maximize();
