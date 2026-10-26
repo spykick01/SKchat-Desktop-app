@@ -1,7 +1,7 @@
 {
   "name": "skchat-desktop",
   "productName": "SKchat",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SKchat, SKMusic and SKSMPMC desktop app",
   "main": "src/main.js",
   "author": "SK",
@@ -12,7 +12,8 @@
     "release": "electron-builder --win --publish always"
   },
   "dependencies": {
-    "electron-updater": "^6.3.9"
+    "electron-updater": "^6.3.9",
+    "discord-rpc": "^4.0.1"
   },
   "devDependencies": {
     "electron": "^33.2.0",
